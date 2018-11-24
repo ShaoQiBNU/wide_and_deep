@@ -9,7 +9,7 @@ wide & deep
 
 > wide and deep模型结构设计如图所示：
 
-！！！！！！！img1
+![image](https://github.com/ShaoQiBNU/wide_and_deep/blob/master/images/1.png)
 
 ## (一) wide
 
@@ -19,7 +19,7 @@ wide & deep
 
 > cross-product transformation定义如下：
 
-！！！！！！！img2
+![image](https://github.com/ShaoQiBNU/wide_and_deep/blob/master/images/2.png)
 
 ## (二) deep
 
@@ -28,8 +28,9 @@ wide & deep
 ## (三) wide & deep 
 
 > 整个模型的输出是线性模型输出与 DNN 模型输出的叠加，模型训练采用的是联合训练（joint training），训练误差会同时反馈到线性模型和 DNN 模型中进行参数更新。相比于 ensemble learning 中单个模型进行独立训练，模型的融合仅在最终预测阶段进行，joint training 中模型的融合是在训练阶段进行的，单个模型的权重更新会受到 wide 端和 deep 端对模型训练误差的共同影响。因此在模型的特征设计阶段，wide 端模型和 deep 端模型只需要分别专注于擅长的方面，wide 端模型通过离散特征的交叉组合进行 memorization，deep 端模型通过特征的 embedding 进行 generalization，这样单个模型的大小和复杂度也能得到控制，而整体模型的性能仍能得到提高。
->
 > wide端采用FTRL和L1正则化来优化，deep端采用AdaGrad算法来优化，wide & deep Model的后向传播采用mini-batch stochastic optimization。
+
+![image](https://github.com/ShaoQiBNU/wide_and_deep/blob/master/images/3.png)
 
 #### Memorization
 
@@ -49,7 +50,7 @@ wide & deep
 
 > Google官方给出了一个实例——预测收入是否超过5万美元，二分类问题。 数据集概览如下：
 
-！！！！！！！img3
+![image](https://github.com/ShaoQiBNU/wide_and_deep/blob/master/images/3.jpg)
 
 ## (一) 数据下载
 
