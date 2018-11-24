@@ -1,6 +1,7 @@
 wide & deep
 ============
 
+参考：https://blog.csdn.net/u010352603/article/details/80590129#62-wide-deep-model.
 # 一. 背景
 
 > wide and deep模型是谷歌在2016年发布的一类用于分类和回归的模型，并应用到了 Google Play 的应用推荐中。wide and deep 模型的核心思想是结合线性模型的记忆能力（memorization）和 DNN 模型的泛化能力（generalization），在训练过程中同时优化 2 个模型的参数，从而达到整体模型的预测能力最优。
