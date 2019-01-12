@@ -298,4 +298,8 @@ for n in range(train_epochs // epochs_per_eval):
 
 > 其中关于特征的处理见：https://www.jianshu.com/p/fceb64c790f3. 和 https://blog.csdn.net/sxf1061926959/article/details/78440220?readlog.
 
+## (三) R语言版本
 
+https://tensorflow.rstudio.com/tfestimators/articles/examples/wide_and_deep.html
+
+https://github.com/rstudio/tfestimators/blob/master/vignettes/examples/wide_and_deep.R
