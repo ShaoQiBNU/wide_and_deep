@@ -7,7 +7,7 @@ https://blog.csdn.net/u010352603/article/details/80590129#62-wide-deep-model
 
 https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html
 
-https://github.com/tensorflow/models/tree/master/official/wide_deep
+https://github.com/tensorflow/models/tree/master/official/r1/wide_deep
 
 # 一. 背景
 
