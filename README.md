@@ -296,7 +296,7 @@ for n in range(train_epochs // epochs_per_eval):
         print("{0:20}: {1:.4f}".format(key, results[key]))
 ```
 
-> 其中关于特征的处理见：https://www.jianshu.com/p/fceb64c790f3. 和 https://blog.csdn.net/sxf1061926959/article/details/78440220?readlog.
+> 其中关于特征的处理见：https://www.jianshu.com/p/fceb64c790f3 和 https://blog.csdn.net/sxf1061926959/article/details/78440220?readlog
 
 ## (三) R语言版本
 
