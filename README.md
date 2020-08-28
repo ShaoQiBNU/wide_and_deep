@@ -1,14 +1,6 @@
 wide & deep
 ============
 
-参考：
-
-https://blog.csdn.net/u010352603/article/details/80590129#62-wide-deep-model
-
-https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html
-
-https://github.com/tensorflow/models/tree/master/official/r1/wide_deep
-
 # 一. 背景
 
 > wide and deep模型是谷歌在2016年发布的一类用于分类和回归的模型，并应用到了 Google Play 的应用推荐中。wide and deep 模型的核心思想是结合线性模型的记忆能力（memorization）和 DNN 模型的泛化能力（generalization），在训练过程中同时优化 2 个模型的参数，从而达到整体模型的预测能力最优。
@@ -306,3 +298,13 @@ for n in range(train_epochs // epochs_per_eval):
 https://tensorflow.rstudio.com/tfestimators/articles/examples/wide_and_deep.html
 
 https://github.com/rstudio/tfestimators/blob/master/vignettes/examples/wide_and_deep.R
+
+
+
+参考：
+
+https://blog.csdn.net/u010352603/article/details/80590129#62-wide-deep-model
+
+https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html
+
+https://github.com/tensorflow/models/tree/master/official/r1/wide_deep
