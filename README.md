@@ -303,7 +303,7 @@ https://github.com/rstudio/tfestimators/blob/master/vignettes/examples/wide_and_
 
 参考：
 
-https://blog.csdn.net/u010352603/article/details/80590129#62-wide-deep-model
+https://blog.csdn.net/u010352603/article/details/80590129
 
 https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html
 
